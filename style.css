@@ -1,7 +1,18 @@
+body{
+    background-color: cornflowerblue;
+}
 #title{
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.body{
-    background-color: azure;
+.container{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border: 200px;
+    margin-top: 10%;
+    margin-left: 32%;
+    padding: 50px;
 }
+
+
