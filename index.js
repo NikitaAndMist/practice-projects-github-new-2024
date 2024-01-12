@@ -1,3 +1,4 @@
-document.getElementById("title").onclick = function(){
+document.getElementById("button").onclick = function(){
+
     
 }
