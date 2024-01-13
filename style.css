@@ -1,10 +1,11 @@
 body{
-    background-color: cornflowerblue;
+    background-color: #80BCBD;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    color: rgb(50, 50, 50);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #title{
@@ -12,7 +13,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
-    background-color: aliceblue;
+    background-color: #D5F0C1;
     position: absolute;
     width: 300px;
     padding: 30px;     
@@ -29,7 +30,10 @@ h2{
     width: 290px;
     height: 30px;
     border-radius: 5px;
-    border-width: 1px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-left-color: rgb(50, 50, 50);
 }
 #password{
     margin-bottom: 5px;
@@ -47,7 +51,7 @@ h2{
 #bottom > button{
     height: 35px;
     width: 83%;
-    background-color: cornflowerblue;
+    background-color: #80BCBD;
     border: 0;
     color: aliceblue;
     border-radius: 5px;
@@ -64,8 +68,43 @@ h2{
 a{
     opacity: 0.9;
 }
-
-
+.icon1 {
+    position: absolute;
+    margin-top: 132px;
+    margin-left: 280px;
+    top: 0;
+    bottom: 0;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+.icon2{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 280px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    width: 18px;
+}
+.icon3{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 125px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    width: 60px;
+}
 
 /**
 position: absolute;
