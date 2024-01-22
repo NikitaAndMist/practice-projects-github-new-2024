@@ -31,9 +31,11 @@ h2{
     height: 30px;
     border-radius: 5px;
     border-width: 0px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding: 0px 10px 0px 5px;
     border-left-color: rgb(50, 50, 50);
+}
+.textBox input{
+    padding: 0px 35px 0px 5px;
 }
 #password{
     margin-bottom: 5px;
@@ -105,19 +107,16 @@ a{
     opacity: 0.6;
     width: 60px;
 }
-
-/**
-position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-
+#icon-close{
+    cursor: pointer;
+    position: absolute;
+    margin-bottom: 420px;
+    margin-left: 305px;
+    top: 0;
+    bottom: 0;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-
-
-*/
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    width: 20px;
+}
